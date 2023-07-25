@@ -1,0 +1,2273 @@
+/* ======================================= */
+/*             GENERAL CODES               */
+/* ======================================= */
+
+body { 
+  font-family: "roboto", sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  }
+
+button{
+  color:white;
+  background-color: #D91E25;
+  border: transparent;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* ======================================= */
+/*             HOME PAGE                   */
+/* ======================================= */  
+
+/* ========= MENU ========= */
+
+.logo-menu {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-menu img{
+  
+    height: 45px; 
+    width: 40px;
+}
+
+
+.main-nav ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    
+}
+    
+.main-nav ul li{
+    width:100%;
+    
+}
+  
+.main-nav ul li a{
+    display: block;
+    padding:15px 10px 10px 15px;
+    font-weight: 500;
+    color: #020E4B;
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+    
+}
+
+nav .nav-toggle{
+	position: absolute;
+	top: 24px;
+	right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 3;
+  line-height: 2.5;
+  -webkit-tap-highlight-color:transparent;
+}
+
+
+
+.nav-toggle {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: #020E4B;
+  background: transparent;
+  cursor: pointer;
+  
+}
+
+/* ========= HEADER ========= */
+
+
+.full-banner{
+    background:transparent url(Images/Banner\ -\ Home\ Page.jpg);
+    background-size:cover ;
+    background-position:top;
+    width: 100%;
+    margin: 0;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.banner-title{
+   margin-top: 140px;
+   font-size: 20px;
+   text-shadow: 3px 1px 2px #020E4B;
+}
+
+/* ========= PARTNER'S LOGOS ========= */
+
+.logo-container {
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.logo {
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+/* ========= WHO ARE WE ========= */
+
+.who-are-we {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.who-are-we .content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.who-are-we button {
+  width: 90px;
+  height: 21px;
+  font-size: 10px;
+  
+}
+
+.who-are-we img {
+  width: 100%;
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.who-are-we p{
+  color: #17146A;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+
+/* ========= SERVICES ========= */
+
+.servicos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicos-title{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color:#17146A;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+
+.servicos-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.servicos-icons img{
+  width: 30px;
+  height: 30px;
+}
+
+.servicos-title2{
+  font-size: 13px;
+  color:#17146A;
+  font-weight: 500;
+}
+
+.servicos-text{
+  font-size: 10px;
+  color:#797979;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: -7px;
+  text-align: center;
+}
+
+/* ========= SPECIALITIES ========= */
+
+.especialidade{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.especialidade-title{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color:#17146A;
+  font-weight: 500;
+  margin-top: 80px;
+}
+
+
+.especialidade-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
+
+}
+
+.especialidade-section img{
+  width: 200px;
+  height: 137px;
+  border-radius: 9px;
+}
+
+.especialidade-title2{
+  font-size: 15px;
+  color:#17146A;
+  font-weight: 500;
+}
+
+.especialidade-text{
+  font-size: 11px;
+  color:#797979;
+  margin-left: 90px;
+  margin-right: 90px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.especialidade-section button{
+ padding: 5px 40px;
+ font-size: 10px;
+}
+
+
+/* ========= CALL TO ACTION ========= */
+
+
+.cta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-title{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color:#17146A;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.cta-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cta-icons img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.cta-title2{
+  font-size: 13px;
+  color:#17146A;
+  font-weight: 500;
+}
+
+.cta-text{
+  font-size: 10px;
+  color:#797979;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: -7px;
+  text-align: center;
+}
+
+.cta-button{
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  
+}
+
+.cta-button button{
+  padding: 5px 45px;
+}
+
+/* ======================================= */
+/*           ABOUT US PAGE                 */
+/* ======================================= */
+
+
+/* ========= BANNER ========= */
+
+
+.full-banner2{
+  background:transparent url(Images/sobre-nos-banner.jpg);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* ========= WHO WE ARE (text) ========= */
+
+.historia-title,
+.nos-somos-title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #17146A;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.historia-text,
+.nos-somos-text{
+  font-size: 13px;
+  line-height: 30px;
+  margin: 0px 30px;
+   color:#797979;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+/* ======================================= */
+/*                SERVICES                 */
+/* ======================================= */
+
+/* ========= BANNER ========= */
+
+
+.full-banner5{
+  background:transparent url(Images/work.jpg);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* ======================================= */
+/*           AQUECIMENTO E                 */
+/*         CLIMATIZAÇÃO PAGE               */
+/* ======================================= */
+
+.full-banner-aquecimento{
+  background:transparent url(Images/Aquecimento-banner.jpg);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+
+.aquecimento-description{
+  margin: 30px 50px 0px 40px;
+}
+
+.aquecimento-description h1{
+ color: #17146A;
+ font-size: 18px;
+}
+
+.aquecimento-description p{
+  color: #797979;
+  font-size: 13px;
+ }
+
+ul{
+  list-style-type: circle;
+  font-weight: 500;
+  color: #17146A;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.list-description{
+  font-size: 13px;
+  color: #797979;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+.galeria-aquecimento{
+  margin-bottom: 90px;
+  margin-top: 50px;
+}
+
+.galeria-aquecimento img{
+ height: 200px;
+
+}
+
+.instalacao-title{
+  text-align: center;
+}
+
+.instalacao-title p{
+  color: #797979;
+  font-size: 13px;
+  margin: -24px 40px 0px 40px;
+}
+
+.instalacao-title h4{
+  color: #17146A;
+  font-size: 16px;
+  margin: 40px 0px;
+}
+
+.instalacao{
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+
+/* ======================================= */
+/*                INOX PAGE                */
+/* ======================================= */
+
+.full-banner-inox{
+  background:transparent url(Images/servicos-banner.png);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+
+.full-banner-truss{
+  background:transparent url(Images/ferreinox\ -\ 1.png);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+
+/* ======================================= */
+/*            ENERGIAS PAGE                */
+/* ======================================= */
+
+.full-banner-energias{
+  background:transparent url(Images/solar-system-banner.jpg);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.paines-img{
+  width: 350px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+/* ======================================= */
+/*           PORTFOLIO PAGE                */
+/* ======================================= */
+
+/* ========= BANNER ========= */
+
+
+.full-banner3{
+  background:transparent url(Images/portfolio-banner.jpg);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* ========= DESCRIPTION ========= */
+
+.port-description{
+  text-align: center;
+  margin: 30px 40px 20px 40px;
+}
+
+.port-description h1{
+  font-size: 20px;
+  font-weight: 500;
+  color: #17146A;
+}
+
+.port-description p{
+  font-size: 13px;
+  color: #797979;
+  line-height: 25px;
+}
+
+/* ========= IMAGE GALLERY ========= */
+
+.wrapper {
+  margin: 10px auto;
+  max-width: 1100px;
+}
+
+.wrapper nav {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper .items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
+}
+
+.items span {
+  padding: 5px 25px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 20px;
+  color: #D91E25;
+  border-radius: 50px;
+  border: 2px solid #D91E25;
+  transition: all 0.3s ease;
+}
+
+.items span.active,
+.items span:hover {
+  color: #fff;
+  background: #D91E25;
+}
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.gallery .image{
+  width: calc(100% / 4);
+  padding: 7px;
+}
+
+.gallery .image span{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery .image img{
+  width:100%;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+
+.gallery .image:hover img{
+  transform: scale(1.1);
+}
+
+.gallery .image.hide{
+  display: none;
+}
+
+.gallery .image.show{
+  animation: animate 0.4s ease;
+}
+
+
+@keyframes animate {
+  0%{
+    transform: scale(0.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+/* ========= IMAGE PREVIEW ========= */
+
+.preview-box {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  max-width: 90%;
+  max-height: 90%;
+  padding: 10px ;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 400px;
+  height: auto;
+
+  border-radius: 3px;
+}
+
+.show {
+  display: block;
+}
+
+.details{
+  display: none;
+}
+
+.shadow {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  margin: 0px;
+  position: relative;
+  cursor: pointer;
+}
+
+.image span {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+
+.image:before {
+  content: "";
+  display: block;
+}
+
+.image.show-preview img {
+  transform: scale(1.2);
+}
+
+
+.close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 24px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0px 22px;
+}
+
+
+
+/* ======================================= */
+/*           CONTACTS PAGE                 */
+/* ======================================= */
+
+
+/* ========= BANNER ========= */
+
+
+.full-banner4{
+  background:transparent url(Images/contact-banner.jpg);
+  background-size:cover ;
+  background-position:top;
+  width: 100%;
+  margin: 0;
+  height: 350px;
+  text-align: center;  
+  color: white;
+  overflow: hidden;
+}
+
+/* ========= CONTACTS INFO ========= */
+
+.contacts-txt{
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+.contacts-txt h1{
+  font-size: 20px;
+  font-weight: 500;
+  color: #17146A;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contacts-txt h3{
+  font-size: 18px;
+  color: #17146A;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contacts-txt p{
+  font-size: 12px;
+  text-align: center;
+  margin: -10px 60px 20px 60px;
+}
+
+
+/* ========= GOOGLE MAPS ========= */
+
+.map{
+  border: transparent;
+  height: 250px;
+  margin: 40px 0px;
+}
+
+/* ======================================= */
+/*                FOOTER                   */
+/* ======================================= */  
+
+.footer {
+  background-color: #19124A;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+}
+
+.footer h4 {
+  font-size: 16px;
+  margin-bottom: -5px;
+}
+
+.logo-footer {
+  width: 40px;
+  height: 45px;
+  margin-top: 20px;
+}
+
+.social-media-footer img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.site-map p,
+.contactos-footer p,
+.horario-footer p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.site-map {
+  margin-bottom: 50px;
+}
+
+.contactos-footer {
+  margin-bottom: 50px;
+}
+
+.horario-footer {
+  margin-bottom: 50px;
+}
+
+.branca-footer{
+  display: flex;
+  justify-content: end;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.branca-footer img{
+  width:220px;
+}
+
+.branca-footer p{
+  font-size: 10px;
+  line-height: 20px;
+  text-align: end;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+/* ======================================= */
+/*            MEDIA QUERIES                */
+/* ======================================= */
+
+
+@media (min-width: 500px) {
+
+/* ========================= */
+/* ======= HOME PAGE ======= */
+/* ========================= */
+
+
+
+/* ====== Services ========= */
+
+.servicos-title2{
+  font-size: 15px;
+}
+
+.servicos-text{
+  font-size: 13px;
+}
+
+
+/* ==== Specialities ===== */
+
+.especialidade-text {
+  margin: 5px 130px 12px 130px;
+}
+
+
+/* ====== Call to Acion ========= */
+
+.cta-title2{
+  font-size: 15px;
+}
+
+.cta-text{
+  font-size: 13px;
+}
+
+}
+
+@media (min-width: 600px) {
+
+/* ========================= */
+/* ======= HOME PAGE ======= */
+/* ========================= */
+
+/* ====== Services ========= */
+
+  .servicos-title{
+    font-size: 20px;
+  }
+
+
+
+/* ==== Specialities ===== */
+
+
+  .especialidade-section img{
+    width:220px ;
+    height: 140px;
+  }
+
+  .especialidade-title{
+    font-size: 20px;
+  }
+  
+  .especialidade-title2{
+    font-size: 15px;
+  }
+
+  .especialidade-text {
+    margin: -5px 150px 12px 150px;
+    font-size: 12px;
+  }
+
+  .especialidade-section button{
+    padding: 5px 40px;
+  }
+  
+
+
+/* ====== Call to Action ========= */
+
+  .cta-title{
+  font-size: 20px;
+}
+
+
+/* ========================= */
+/* ======= PORTFOLIO ======= */
+/* ========================= */
+
+.wrapper{
+  margin: 30px auto;
+}
+.wrapper nav .items{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav .items span{
+  margin: 5px;
+}
+.gallery .image{
+  width: 100%;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.gallery .image{
+  width: calc(100% / 4);
+  padding: 7px;
+}
+}
+
+@media (min-width: 700px) {
+
+ /* ========================= */
+ /* ======= HOME PAGE ======= */
+ /* ========================= */
+
+ /* ====== Menu ======= */
+  
+  .logo-menu{
+   position: absolute;
+   margin: 0;
+  }
+
+  .logo-menu img{
+    width: 45px;
+    height:45px;
+    margin: 5px;
+    margin-left: 10px;
+   }
+
+  .main-nav{
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .main-nav ul {
+    display: flex;
+    margin-right: 100px;
+    font-size: 14px;
+    justify-content: space-between;
+  }
+    
+  .main-nav ul li:first-child {
+    margin-right: 25px; 
+  }
+
+  .main-nav ul li {
+    margin-left: 95px;
+    
+  }
+
+  .main-nav ul li a {
+    position: absolute;
+    color: white;
+    padding-top: 30px;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 470;
+  }
+
+  nav .nav-toggle {
+    display: none;
+  }
+
+
+  .logo {
+    height: 25px;
+  }
+
+
+/* ====== Who Are We ======= */
+
+.who-are-we{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 48px 30px 0px;
+
+}
+
+.who-are-we img{
+  width: 303px;
+  height: 180px;
+}
+
+.who-are-we p{
+  color: #17146A;
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.who-are-we button{
+  padding: 4px 19px;
+  margin-top: -10px;
+  margin-left: 80px;
+}
+
+/* ====== Services ======= */
+
+.servicos-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding-top: 50px;
+}
+
+.servicos{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 40px;
+}
+
+.servicos-icons{
+  display: flex;
+  flex-direction:column;
+}
+
+.servicos-title{
+  font-size: 18px;
+  color:#17146A;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+
+.servicos-icons img{
+  width: 30px;
+  height: 30px;
+}
+
+.servicos-title2{
+  font-size: 14px;
+}
+
+.servicos-text{
+  font-size: 10px;
+  
+  margin-top: -7px;
+  text-align: center;
+}
+
+/* ====== Specialities ======= */
+
+
+.especialidade-section img{
+  width: 209px;
+  height: 140px;
+}
+
+.especialidade {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.especialidade-section {
+  width: calc(50% - 0px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.especialidade-text{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.especialidade-section button{
+  font-size: 10px;
+  padding: 4px 30px;
+}
+
+
+
+/* ====== Call to Action ======= */
+
+.cta-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cta{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 60px;
+}
+
+.cta-icons{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cta-title{
+  font-size: 18px;
+  color:#17146A;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+
+.cta-icons img{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.cta-title2{
+  font-size: 14px;
+}
+
+.cta-text{
+  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -7px;
+  text-align: center;
+}
+
+/* ========================= */
+/* ======= SOBRE NOS ======= */
+/* ========================= */
+
+/* ====== text ======= */
+
+.historia-title,
+.nos-somos-title{
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.historia-text,
+.nos-somos-text{
+  font-size: 13px;
+  margin: 0px 70px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+/* ====== Gallery ======= */
+
+.imagem{
+  width: 400px;
+}
+
+
+/* ======================================= */
+/*           AQUECIMENTO E                 */
+/*         CLIMATIZAÇÃO PAGE               */
+/* ======================================= */
+
+.aquecimento-description{
+  margin: 70px 90px 0px 40px;
+}
+
+.aquecimento-description h1{
+ font-size: 20px;
+}
+
+.aquecimento-description p{
+  font-size: 15px;
+ }
+
+ul{
+  font-size: 19px;
+}
+
+.list-description{
+  font-size: 15px;
+  margin-right: 90px;
+}
+
+
+.galeria-aquecimento img{
+  width: auto;
+ height: 200px;
+
+}
+
+
+
+.instalacao-title p{
+  font-size: 13px;
+  margin: -24px 90px 0px 90px;
+}
+
+.instalacao-title h4{
+  color: #17146A;
+  font-size: 16px;
+  margin: 50px 0px;
+}
+
+
+
+
+/* ======================================= */
+/*            ENERGIAS PAGE                */
+/* ======================================= */
+
+
+.paines-img{
+  width: 390px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+/* ========================= */
+/* ======= CONTACTOS ======= */
+/* ========================= */
+
+/* ====== TEXT ======= */
+
+.contacts-txt h1{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20PX;
+}
+
+.contacts-txt h3{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.contacts-txt p{
+  font-size: 14px;
+  margin: -5px 190px 20px 190px;
+}
+
+
+
+/* ====== Form ======= */
+
+label{
+  font-size: 14px;
+}
+
+.formbtn{
+ font-size: 17px;
+}
+
+input{
+  margin: 0px 150px ;
+}
+
+textarea{
+  padding: 12px;
+  margin: 0px 150px ;
+  margin-bottom: 20px;
+}
+
+form > button{
+  margin: 3px 200px;
+}
+
+
+/* ========================= */
+/* ======= PORTFOLIO ======= */
+/* ========================= */
+
+
+.port-description{
+  text-align: center;
+  margin: 20px 60px 30px 60px;
+}
+
+.port-description h1{
+  font-size: 27px;
+  font-weight: 500;
+  color: #17146A;
+}
+
+.port-description p{
+  font-size: 14px;
+  line-height: 30px;
+}
+
+
+.preview-box {
+  padding: 30px ;
+}
+
+
+
+/* ========================= */
+/* ======= FOOTER ======= */
+/* ========================= */
+
+.section {
+  display: grid;
+  grid-template-columns: 250px 250px 110px 0px;
+  text-align: left;
+}
+
+
+.contactos-footer h4,
+.horario-footer h4 {
+font-size: 13px;
+font-style: italic;
+}
+
+.site-map h3 {
+  margin-bottom: 25px;
+}
+
+.site-map p{
+  margin-bottom: 25px;
+}
+
+.social-media-footer{
+  margin-top: -20px;
+}
+
+
+}
+
+@media (min-width: 900px){
+
+/* ========================= */
+/* ======= HOME PAGE ======= */
+/* ========================= */
+
+/* ====== Navigation ======= */
+
+  .main-nav ul li a {
+    font-size: 18px;
+    
+  }
+
+  .logo-menu img{
+    width: 50px;
+    height:55px;
+   }
+
+  .main-nav ul li:first-child {
+    margin-right: 35px; 
+  }
+
+  .main-nav ul li {
+    margin-left: 130px;
+    
+  }
+
+  .main-nav ul {
+    margin-right: 120px;
+
+  }
+
+  .full-banner{
+    background:transparent url(Images/Banner\ -\ Home\ Page.jpg)  0% 0% no-repeat padding-box;
+    background-size:cover;
+    background-position: top;
+    height: calc(100vh - 0px);
+  }
+
+  .banner-title{
+    margin-top: 280px;
+    font-size: 40px;
+  }
+
+  .banner-button{
+    color:white;
+    background-color: #D91E25;
+    border: transparent;
+    border-radius: 20px;
+    padding: 8px 22px;
+
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .logo-container {
+    margin-top: 40px;
+  }
+
+/* ====== Who Are We ======= */
+
+   .who-are-we{
+     margin-top: 80px;
+   }
+
+   .who-are-we img{
+     width: 400px;
+     height: 250px;
+   }
+
+   .who-are-we p{
+     font-size: 25px;
+   }
+
+   .who-are-we button{
+     font-size: 12px;
+   }
+   .who-are-we{
+     margin: 50px 80px 30px 0px;
+
+   }
+
+
+
+/* ====== Services ======= */
+
+
+   .servicos-title{
+     font-size: 26px;
+     color:#17146A;
+     font-weight: 500;
+     margin-top: 40px;
+   }
+
+
+   .servicos-icons img{
+     width: 50px;
+     height: 50px;
+   }
+
+   .servicos-title2{
+     font-size: 18px;
+   }
+
+   .servicos-text{
+     font-size: 12px;
+     margin-left: 40px;
+     margin-right: 40px;
+     margin-top: -7px;
+   }
+
+   .servicos{
+     display: flex;
+     flex-direction: row;
+     margin: 0px 100px;
+   }
+
+
+/* ====== Specialities ======= */
+
+  
+  .especialidade-section img{
+    width: 269px;
+    height: 170px;
+  }
+
+  .especialidade {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+  }
+
+  .especialidade-section {
+    width: calc(50% - 0px);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .especialidade-title{
+    font-size: 26px;
+  }
+
+  .especialidade-title2{
+    font-size: 18px;
+  }
+
+  .especialidade-text{
+    margin-left: 100px;
+    margin-right:100px;
+    font-size: 12px;
+  }
+
+  .especialidade-section button{
+    font-size: 10px;
+    padding: 4px 30px;
+  }
+
+
+/* ====== Call to Action ======= */
+
+
+.cta-title{
+  font-size: 26px;
+  color:#17146A;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+
+.cta-icons img{
+  width: 40px;
+  height: 40px;
+}
+
+.cta-title2{
+  font-size: 18px;
+}
+
+.cta-text{
+  font-size: 12px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.cta{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+/* ========================= */
+/* ==== ABOUT US PAGE ====== */
+/* ========================= */
+
+
+.sobre-nos{
+  background:transparent url(Images/sobre-nos-banner.png)  0% 0% no-repeat padding-box;
+}
+
+.full-banner2{
+  background:transparent url(Images/sobre-nos-banner.jpg)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position: top;
+  height: calc(100vh - 0px);
+}
+
+/* ====== TEXT ======= */
+
+.historia-title,
+.nos-somos-title{
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.historia-text,
+.nos-somos-text{
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0px 100px;
+  margin-bottom: 60px;
+}
+
+
+/* ========================= */
+/* ======= SERVICES +======= */
+/* ========================= */
+
+/* ====== BANNER ======= */
+
+.full-banner5{
+  background:transparent url(Images/work.jpg)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position: top;
+  height: calc(100vh - 0px);
+}
+
+
+/* ======================================= */
+/*            ENERGIAS PAGE                */
+/* ======================================= */
+
+
+.paines-img{
+  width: 390px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+/* ========================= */
+/* ===== AQUECIMENTO ======= */
+/* ========================= */
+
+.full-banner-aquecimento{
+  background:transparent url(Images/Aquecimento-banner.jpg)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position:center;
+  height: calc(100vh - 0px);
+}
+
+
+.aquecimento-description{
+  margin: 40px 90px 0px 40px;
+}
+
+.aquecimento-description h1{
+ font-size: 22px;
+}
+
+.aquecimento-description p{
+  font-size: 15px;
+ }
+
+ul{
+  font-size: 19px;
+}
+
+.list-description{
+  font-size: 15px;
+  margin-right: 90px;
+}
+
+
+.galeria-aquecimento img{
+  width: auto;
+ height: 200px;
+
+}
+
+
+
+.instalacao-title p{
+  font-size: 13px;
+  margin: -24px 90px 0px 90px;
+}
+
+.instalacao-title h4{
+  color: #17146A;
+  font-size: 16px;
+  margin: 50px 0px;
+}
+
+
+
+
+/* ========================= */
+/* ========== INOX ========= */
+/* ========================= */
+
+.full-banner-inox{
+  background:transparent url(Images/servicos-banner.png)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position: top;
+  height: calc(100vh - 0px);
+}
+
+
+/* ========================= */
+/* ====== ENERGIAS ========= */
+/* ========================= */
+
+.full-banner-energias{
+  background:transparent url(Images/solar-system-banner.jpg)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position: bottom;
+  height: calc(100vh - 0px);
+}
+
+/* ========================= */
+/* ========= TRUSS ========= */
+/* ========================= */
+
+.full-banner-truss{
+  background:transparent url(Images/ferreinox\ -\ 1.png)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position: top;
+  height: calc(100vh - 0px);
+}
+
+/* ========================= */
+/* ======= CONTACTOS ======= */
+/* ========================= */
+/* ========================= */
+/* ======= CONTACTS ======= */
+/* ========================= */
+
+/* ====== BANNER ======= */
+
+.full-banner4{
+  background:transparent url(Images/contact-banner.jpg)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position: bottom;
+  height: calc(100vh - 0px);
+}
+
+/* ====== TEXT ======= */
+
+.contacts-txt{
+  display: flex;
+  flex-direction: column;
+}
+
+.row-pc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  width:  100%;
+}
+
+.contacts-txt h1{
+  font-size: 20px;
+  margin: 30px 70px 20px 70px;
+}
+
+.contacts-txt h3{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.contacts-txt p{
+  font-size: 15px;
+  margin: 0px 70px 0px 70px;
+  text-align: center;
+}
+
+
+/* ====== Form ======= */
+
+label{
+  font-size: 16px;
+}
+
+.formbtn{
+ font-size: 13px;
+}
+
+input{
+  margin: 0px 150px ;
+}
+
+textarea{
+  padding: 12px;
+  margin: 0px 150px ;
+  margin-bottom: 20px;
+}
+
+form > button{
+  margin: 3px 300px;
+}
+
+
+/* ========================= */
+/* ======= PORTFOLIO ======= */
+/* ========================= */
+
+
+.full-banner3{
+  background:transparent url(Images/portfolio-banner.jpg)  0% 0% no-repeat padding-box;
+  background-size:cover;
+  background-position: top;
+  height: calc(100vh - 0px);
+}
+
+.gallery .image{
+  width: calc(100% / 2);
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.gallery .image{
+  width: calc(100% / 4);
+  padding: 7px;
+}
+
+
+.items span{
+  padding: 5px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  color: #D91E25;
+  border-radius: 50px;
+  border: 2px solid #D91E25;
+  transition: all 0.3s ease;
+}
+}
+
+@media (min-width: 1020px){
+
+/* ========================= */
+/* ======= HOME PAGE ======= */
+/* ========================= */
+
+
+.banner-title{
+  margin-top: 300px;
+}
+
+/* ====== Navigation ======= */
+
+  .logo-menu img{
+    width: 60px;
+    height:65px;
+   }
+
+  .main-nav ul li a {
+    font-size: 18px;
+    padding-top: 40px;
+  }
+
+  .main-nav ul li {
+    margin-left: 160px;
+    
+  }
+
+  .main-nav ul {
+    margin-right: 120px;
+  }
+  
+/* ====== Who Are We ======= */
+
+  .who-are-we{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 128px 30px 120px;
+  
+  }
+
+/* ====== Services ======= */
+
+
+  .servicos{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 140px;
+  }
+  
+
+
+/* ====== Specialities ======= */
+
+   
+.especialidade-section img{
+  width: 309px;
+  height: 180px;
+}
+
+.especialidade {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.especialidade-section {
+  width: calc(50% - 0px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.especialidade-text{
+  max-width: 300px;
+}
+
+.especialidade-section button{
+  font-size: 12px;
+  margin-top: 4px;
+  padding: 4px 50px;
+}
+
+
+
+/* ====== Call to Action ======= */
+
+
+.cta{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 140px;
+  }
+  
+  .cta-button{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    
+  }
+  
+  .cta-button button{
+    font-size: 15px;
+    padding: 5px 50px;
+  }
+
+
+
+/* ====== Footer ======= */
+
+.section {
+  display: grid;
+  grid-template-columns: 380px 360px 100px 0px;
+}
+
+.horario-footer h3{
+  white-space:nowrap;
+}
+
+.contactos-footer h4,
+.horario-footer h4 {
+font-size: 13px;
+font-style: italic;
+}
+
+.site-map h3 {
+  margin-bottom: 25px;
+}
+
+.site-map p{
+  margin-bottom: 25px;
+}
+
+.social-media-footer{
+  margin-top: -20px;
+}
+
+
+
+/* ========================= */
+/* ===== ABOUT US PAGE ===== */
+/* ========================= */
+
+/* ====== TEXT ======= */
+
+.historia-title,
+.nos-somos-title{
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.historia-text,
+.nos-somos-text{
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0px 150px;
+  margin-bottom: 100px;
+}
+
+
+/* ======================================= */
+/*            ENERGIAS PAGE                */
+/* ======================================= */
+
+.paineis{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px;
+}
+
+.paines-img{
+  width: 500px;
+}
+
+/* ========================= */
+/* ===== AQUECIMENTO ======= */
+/* ========================= */
+
+
+
+.aquecimento-description{
+  margin: 40px 300px 0px 300px;
+}
+
+.aquecimento-description h1{
+ font-size: 30px;
+ text-align: center;
+}
+
+.aquecimento-description p{
+  font-size: 16px;
+  text-align: center;
+ }
+
+ul{
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.list-description{
+  font-size: 15px;
+  text-align: center;
+  margin: 0px 300px;
+}
+
+
+.galeria-aquecimento img{
+  width: auto;
+ height: 300px;
+
+}
+
+
+.instalacao{
+  margin-bottom: 90px;
+}
+
+.instalacao-title p{
+  font-size: 16px;
+  margin: -24px 350px 30px 350px;
+  text-align: center;
+}
+
+.instalacao-title h4{
+  color: #17146A;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+
+/* ========================= */
+/* ======= CONTACTS ======== */
+/* ========================= */
+
+/* ====== TEXT ======= */
+
+.contacts-txt{
+  display: flex;
+  flex-direction: column;
+}
+
+.row-pc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  width:  100%;
+}
+
+.contacts-txt h1{
+  font-size: 20px;
+  margin: 30px 70px 20px 70px;
+}
+
+.contacts-txt h3{
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.contacts-txt p{
+  font-size: 15px;
+  margin: 0px 100px 0px 100px;
+  text-align: center;
+}
+
+.description-contact{
+  padding: 0px 250px;
+}
+
+
+/* ==== GOOGLE MAPS ==== */
+
+.map{
+  height: 400px;
+}
+
+/* ====== Form ======= */
+
+.form-text{
+  margin-top: -100px;
+  margin-left: 00px;
+}
+
+
+.form-text img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px;
+  width: 300px;
+}
+
+.form-text h1{
+  font-size: 30px;
+  font-weight: 500;
+  color: #17146A;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 250px;
+}
+
+.form-text p{
+  font-size: 17px;
+  text-align: left;
+  margin: 0px -100px 20px 250px;
+}
+
+.form-section{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+}
+
+label{
+  font-size: 18px;
+}
+
+.formbtn{
+ font-size: 17px;
+}
+
+
+/* ========================= */
+/* ======= PORTFOLIO ======= */
+/* ========================= */
+
+
+.gallery .image{
+  width: calc(100% / 6);
+}
+
+.wrapper .items {
+  max-width: 1000px;
+}
+
+.wrapper .items span {
+  padding: 6px 30px; 
+  font-size: 15px;
+}
+
+.port-description{
+  text-align: center;
+  margin: 50px 200px 30px 200px;
+}
+
+.port-description h1{
+  font-size: 30px;
+  font-weight: 500;
+  color: #17146A;
+}
+
+.port-description p{
+  font-size: 15px;
+  line-height: 30px;
+}
+
+}
+
+@media (min-width:1400px) {
+  
+
+/* ========================= */
+/* ===== ABOUT US PAGE ===== */
+/* ========================= */
+
+/* ====== TEXT ======= */
+
+.historia-title,
+.nos-somos-title{
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.historia-text,
+.nos-somos-text{
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0px 350px;
+  margin-bottom: 100px;
+}
+
+
+.port-description{
+  text-align: center;
+  margin: 50px 300px 40px 300px;
+}
+
+}
